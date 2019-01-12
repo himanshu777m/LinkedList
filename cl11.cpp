@@ -90,7 +90,9 @@ class Linkedlist{
 		} 
 		current -> next = NULL;
 		// update tail
+		tail = current;
 		//delete temp
+		delete temp;
 	}
 	
 	//delete at position
